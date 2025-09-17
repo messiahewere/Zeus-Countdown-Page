@@ -12,6 +12,15 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Code Explanation
+
+The code base is the proposed landing page for Zeus App. Embedded to the code is the count down screen which
+first loads with a conspicous count-down timer pointing to the launching date for the Zeus App
+
+## Work Done
+The proposed landing page has been created, waiting to populate the contents with Zeus specific contents
+The count down page has been created, and it's usually the first page to load, there's plans to load the main landing page when some or one of the compenents on the count down screen is/are clicked. No routing was done as the count-down page is a tentative screen
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:

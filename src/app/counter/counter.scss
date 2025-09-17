@@ -1,0 +1,238 @@
+.content-holder {
+    background-image: url('/assets/thunderbackground.png');
+    width: 100vw;
+    // height: 100dvh;
+    color: #fff;
+}
+
+.logo-holder {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        figure {
+            width: auto;
+            height: 25px;
+            margin: 0;
+
+            img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        }
+    
+
+    p {
+        font-size: 1.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+     }
+
+  }
+
+.top-holder {
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 0px;
+
+    h1 {
+        letter-spacing: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-size: 2.3rem;
+        font-weight: 800;
+        gap: 5px;
+        color: rgb(62, 240, 210);
+        margin: 0;
+
+        .Zeus-Z {
+            width: 35px;
+            height: 33px;
+        }
+    }
+}
+
+.countdown-holder {
+    width: 100%;
+    max-width: 190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    .unit-holder {
+        height: 42px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
+}
+
+button {
+    width: 50%;
+    max-width: 180px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+.app-feature-holder {
+    width: 90%;
+    max-width: 600px;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+    .feature-container {
+        width: 60%;
+        min-height: 105px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgb(163, 163, 192);
+        border-radius: 10px;
+        padding: 3px;
+
+        .bi {
+            font-size: 1.8rem;
+            margin: 5px 0 5px;
+            color: rgb(107, 107, 230);
+        }
+
+        h6 {
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
+
+.about {
+    width: 90%;
+    max-width: 600px;
+    margin: 0px auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        margin: 0;
+    }
+
+
+    .media-logo {
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+.logo-holder {
+        height: 50px;
+
+        figure {
+            height: 30px;
+
+        }
+    
+
+    p {
+        font-size: 1.6rem;
+     }
+
+  }
+
+  .top-holder {
+    padding: 5px 0 0px;
+
+    h1 {
+        font-size: 2.8rem;
+
+        .Zeus-Z {
+            width: 40px;
+            height: 35px;
+        }
+    }
+}
+
+.countdown-holder {
+    max-width: 250px;
+    margin: 10px 0 20px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: rgb(105, 105, 201);
+    padding: 7px;
+    font-size: 0.9rem;
+    margin: 30px 0 10px;
+}
+
+.app-feature-holder {
+    max-width: 700px;
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 5px;
+    
+    .feature-container {
+        width: 35%;
+
+        .bi {
+            font-size: 2.5rem;
+            margin: 7px 0 7px;
+        }
+
+        h6 {
+            font-size: 1.2rem;
+            margin: 7px 0 7px;
+        }
+    }
+}
+
+}

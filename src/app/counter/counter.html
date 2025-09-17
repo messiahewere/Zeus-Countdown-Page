@@ -1,0 +1,72 @@
+<div class="content-holder">
+    <div class="top-holder">
+        <div class="logo-holder">
+            <figure>
+                <img src="assets/Eccleriumedited.png" alt="Ecclerium logo">
+            </figure>
+            <p>Ecclerium</p>
+        </div>
+        <p>Ecclerium presents</p>
+        <h1><img class="Zeus-Z" src="assets/ZforZeus.png" alt="Zeus Z">EUS</h1>
+        <p>The future of business management</p>
+    
+        
+        <div class="countdown-holder" *ngIf="timeLeft > 0; else expired">
+                <div class="unit-holder">
+                    <h2>{{ days }}</h2>
+                    <p>Days</p>
+                </div>
+                <div class="unit-holder">
+                    <h2>{{ hours }}</h2>
+                    <p>Hours</p>
+                </div>
+                <div class="unit-holder">
+                    <h2>{{ minutes }}</h2>
+                    <p>Minutes</p>
+                </div>
+                <div class="unit-holder">
+                    <h2>{{ seconds }}</h2>
+                    <p>Seconds</p>
+                </div>
+        </div>
+
+        <ng-template #expired>
+                <h2>Time is up!</h2>
+        </ng-template>  
+
+        <p>Launching 30th September 2025</p>
+        <button>NOTIFY ME</button>
+    </div>
+
+    <div class="app-feature-holder">
+        <div class="feature-container">
+            <i class="bi bi-lightning-charge"></i>
+            <h6>FAST AND SCALABLE</h6>
+            <P>Lightening speed performance with a scalable architecture</P>
+        </div>
+        <div class="feature-container">
+            <i class="bi bi-house-check-fill"></i>
+            <h6>BUILT FOR BUSINESSES</h6>
+            <P>A powerful all-in-one solution for any business</P>
+        </div>
+        <div class="feature-container">
+            <i class="bi bi-cloud-check-fill"></i>
+            <h6>CLOUD + MULTI-TENANT</h6>
+            <P>Designed for the cloud with multi-tenancy in mind</P>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="logo-holder">
+            <figure>
+                <img src="assets/Eccleriumedited.png" alt="Ecclerium logo">
+            </figure>
+            <p>Ecclerium</p>
+        </div> 
+        <p>Powered by Ecclerium</p>
+        <div class="media-logo">
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+        </div>       
+    </div>
+</div>

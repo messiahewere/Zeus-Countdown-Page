@@ -1,0 +1,86 @@
+<!-- left side of the header -->
+ <div class="header">
+    <div class="header-left logo">
+      <figure>
+        <img src="assets/Sign.svg" alt="Logo" class="logo" />
+      </figure>
+      <p>ZEUS</p>
+    </div>
+
+    <!-- When screen is below 1024px -->
+     <button class="small-screen all-btn" (click)="onCloseOpen()">
+       <i class="fa fa-times" aria-hidden="true" *ngIf="isOpen"></i>
+       <i class="fa fa-bars" aria-hidden="true" *ngIf="!isOpen"></i>
+     </button>
+
+    <!-- middle side of the header -->
+    <div class="header-middle large-view">
+      <div class="dropdown">
+        <div class="features-icon-holder">
+          <p class="p-head">Features</p> 
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+        <div class="dropdown-content">
+          <p class="p-down">Recruitment</p>
+          <p class="p-down">Employees and Freelances</p>
+          <p class="p-down">Business Management</p>
+          <p class="p-down">Customer relationship management</p>
+          <p class="p-down">Follow-up of your employees</p>
+          <p class="p-down">Invoicing and expenses</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="features-icon-holder">
+          <p class="p-head">You are</p> 
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+        <div class="dropdown-content">
+          <p class="p-down">IT Services company</p>
+          <p class="p-down">Consulting firm</p>
+          <p class="p-down">Recruitment agency</p>
+          <p class="p-down">Engineering company</p>
+        </div>
+      </div>
+      <div>
+        <p class="p-head">Pricing</p>
+      </div>
+      <div class="dropdown">
+        <div class="features-icon-holder">
+          <p class="p-head">News</p> 
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+        <div class="dropdown-content">
+          <p class="p-down">Business news</p>
+          <p class="p-down">Client testimonials</p>
+          <p class="p-down">News</p>
+          <p class="p-down">Webinar and Tutorials</p>
+          <p class="p-down">Roadmap</p>
+          <p class="p-down">Support</p>
+        </div>
+      </div>
+      <div>
+        <p class="p-head">About us</p>
+      </div>
+    </div>
+
+    <!-- right side of the header -->
+    <div class="header-right large-view" >
+      <button class="small-btn">Login</button>
+      <button class="large-btn">Request a demo</button>
+
+      <div class="dropdown language-option">
+        <div class="features-icon-holder">
+          <p class="p-head">EN</p>
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+        <div class="dropdown-content language">
+          <p class="p-down">FR</p>
+        </div>
+      </div>
+
+    </div>
+</div>    

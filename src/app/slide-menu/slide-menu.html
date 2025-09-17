@@ -1,0 +1,96 @@
+<div class="small-screen small-screen-menu">
+   <!-- features line -->
+    <div class="dropdowm-menu" [ngClass]="{colorfont: isFeaturesOpen}">
+      <p>Features</p>
+      <button (click)="onSeeFeatures()" class="all-btn"> 
+        <i class="fa fa-angle-up" aria-hidden="true" *ngIf="isFeaturesOpen" [ngClass]="{colorfont: isFeaturesOpen}"></i>
+        <i class="fa fa-angle-down" aria-hidden="true" *ngIf="!isFeaturesOpen"></i>
+      </button>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Recruitment</p>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Employees and Freelances</p>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Prospection and CRM</p>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Project management</p>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Timesheets and expenses</p>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Invoicing</p>
+    </div>
+    <div class="menu-item" *ngIf="isFeaturesOpen">
+      <p>Purchases</p>
+    </div>
+    <!-- You are line -->
+    <div class="dropdowm-menu" [ngClass]="{colorfont: isYouAreOpen}">
+      <p>You are</p>
+      <button class="all-btn" (click)="onSeeYouAre()">
+        <i class="fa fa-angle-up" aria-hidden="true" *ngIf="isYouAreOpen" [ngClass]="{colorfont: isYouAreOpen}"></i>
+        <i class="fa fa-angle-down" aria-hidden="true" *ngIf="!isYouAreOpen"></i>
+      </button>
+    </div>
+    <div class="menu-item" *ngIf="isYouAreOpen">
+      <p>IT services company</p>
+    </div>
+    <div class="menu-item" *ngIf="isYouAreOpen">
+      <p>Consulting firm</p>
+    </div>
+    <div class="menu-item" *ngIf="isYouAreOpen">
+      <p>Engineering company</p>
+    </div>
+    <div class="menu-item" *ngIf="isYouAreOpen">
+      <p>Recruitment agency</p>
+    </div>
+    <!-- Pricing line -->
+     <div class="non-dropdown-menu">
+      <p>Pricing</p>
+    </div>
+    <!-- News line -->
+    <div class="dropdowm-menu" [ngClass]="{colorfont: isNewsOpen}">
+      <p>News</p>
+      <button class="all-btn" (click)="onSeeNews()">
+        <i class="fa fa-angle-up" aria-hidden="true" *ngIf="isNewsOpen" [ngClass]="{colorfont: isNewsOpen}"></i>
+        <i class="fa fa-angle-down" aria-hidden="true" *ngIf="!isNewsOpen"></i>
+      </button>
+    </div>
+    <div class="menu-item" *ngIf="isNewsOpen">
+      <p>Business news</p>
+    </div>
+    <div class="menu-item" *ngIf="isNewsOpen">
+      <p>Clients testimonials</p>
+    </div>
+    <div class="menu-item" *ngIf="isNewsOpen">
+      <p>News</p>
+    </div>
+    <div class="menu-item" *ngIf="isNewsOpen">
+      <p>Webinar & Tutorials</p>
+    </div>
+    <div class="menu-item" *ngIf="isNewsOpen">
+      <p>Roadmap</p>
+    </div>
+    <div class="menu-item" *ngIf="isNewsOpen">
+      <p>Support</p>
+    </div>
+    <!-- Pricing line -->
+    <div class="non-dropdown-menu">
+      <p>About us</p>
+    </div>
+    <div class="btn-holder">
+      <button class="color-outline-btn">Login</button>
+      <button class="filled-btn">Request a demo</button>
+      <button class="lang-outline-btn" (click)="onLangChange()" [ngClass]="{color: isLangChanged}">EN
+          <div>
+            <i class="fa fa-angle-up" aria-hidden="true" *ngIf="isLangChanged"></i>
+            <i class="fa fa-angle-down" aria-hidden="true" *ngIf="!isLangChanged"></i>
+          </div>
+          <div class="btn-dropdown-content" *ngIf="isLangChanged">FR</div>
+      </button>
+    </div>
+</div>

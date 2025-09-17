@@ -1,0 +1,48 @@
+.main-fifth-row {
+    width: 100%;
+    margin: 40px auto;
+    background-color: #fea500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    gap: 20px;
+    color: #fff;
+
+    h3 {
+        width: 60%;
+        text-align: center;
+    }
+
+    .btn-holder {
+        display: flex;
+    }
+
+    button {
+        margin: 0 10px;
+    }
+
+    .filled-btn {
+            background-color: #fff;
+            max-width: 140px;
+            width: 100%;
+            border: none;
+            color: #fea500;
+            border-radius: 10px;
+            font-weight: 600;
+            padding: 8px;
+    }
+
+    .outline-btn {
+            background-color: transparent;
+            max-width: 400px;
+            width: 100%;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            font-weight: 600;
+            padding: 6px;
+            
+    }
+}

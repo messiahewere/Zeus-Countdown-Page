@@ -1,0 +1,114 @@
+    .color-yellow {
+    color: #FFC300;
+}
+
+    .main-first-row {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        .first-row-first-col {
+            max-width: 100%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            h2 {
+                max-width: 60%;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                font-size: 2rem;
+                margin-bottom: 40px;
+            }
+        }
+
+        .first-col-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .hashtag-holder {
+                display: flex;
+                gap: 0.5rem;
+                margin-bottom: 30px;
+
+                span {
+                    background-color: #f0f0f0;
+                    padding: 5px 10px;
+                    border-radius: 20px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    font-size: 8px;
+                }
+        }
+
+        button {
+                background-color: #fea500;
+                width: 140px;
+                border: none;
+                color: white;
+                border-radius: 10px;
+                font-weight: 600;
+                padding: 8px;
+        }
+    }
+
+    figure {
+        max-width: 300px;
+        margin: 0;
+        display: block;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;}
+
+    }
+
+    }
+
+    @media (min-width: 768px) {
+        
+        .main-first-row {
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .first-row-first-col {
+            
+            max-width: 60%;
+            align-items: flex-start;
+            margin-right: 10px;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .first-col-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .hashtag-holder {
+                margin-bottom: 10px;
+
+                span {
+                    font-size: 12px;
+                }
+        }
+
+    }
+
+    }
+    }

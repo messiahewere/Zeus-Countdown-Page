@@ -1,0 +1,136 @@
+@import '../../shared/shared.scss';
+
+footer {
+    max-width: 100%;
+}
+
+.top-footer {
+    margin: 20px 0;
+    padding: 0 5%;
+
+    .top-footer-write-up-holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #121a22;
+
+        h6 {
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+        .first-col {
+            max-width: 70%;
+            margin-bottom: 20px;
+
+            .contact-location {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin: 5px 0;
+
+                p {
+
+                    margin: 0;
+                }
+            }
+
+            .social-media-icons-holder {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+        }
+
+        .second-col, .third-col, .fourth-col, .fifth-col {
+            max-width: 70%;
+            text-align: center;
+        }
+        
+    }
+}
+
+.footer-badge-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    padding: 20px 0;
+
+    .badge {
+        height: 60px;
+        width: auto;
+        display: block;
+    }
+}
+
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    gap: 20px;
+    border-top: 1px solid #d3d3d3;
+
+
+    .click:hover {
+        color: #fea500;
+        cursor: pointer;
+    }
+}
+
+
+
+
+@media (min-width: 426px) {
+
+    .top-footer {
+
+    .top-footer-write-up-holder {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        
+
+        .first-col {
+            max-width: 30%;
+
+
+        }
+
+        .second-col, .third-col, .fourth-col, .fifth-col {
+            max-width: 16%;
+            text-align: unset;
+        }
+        
+    }
+}
+
+
+    .footer-badge-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .bottom-footer {
+    flex-direction: row;
+}
+
+}
+
+
+

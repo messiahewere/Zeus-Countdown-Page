@@ -28,6 +28,7 @@
         font-size: 1.2rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin: 0;
+        color: #fff;
      }
 
   }
@@ -52,6 +53,7 @@
         gap: 5px;
         color: rgb(62, 240, 210);
         margin: 0;
+        text-shadow: 2px 2px 2px rgb(122, 163, 182);
 
         .Zeus-Z {
             width: 35px;
@@ -94,13 +96,16 @@ h2 {
     font-weight: 700;
     font-size: 1.5rem;
     font-weight: 800;
+    text-shadow: 2px 2px 2px rgb(122, 163, 182);
 }
 
 p {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 0.7rem;
     margin: 0;
+    color: rgb(122, 163, 182);
 }
+
 
 .app-feature-holder {
     width: 90%;
@@ -119,9 +124,9 @@ p {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid rgb(163, 163, 192);
+        border: 1px solid rgb(70, 70, 90);
         border-radius: 10px;
-        padding: 3px;
+        padding: 5px;
 
         .bi {
             font-size: 1.8rem;
@@ -137,6 +142,7 @@ p {
         p {
             margin: 0;
             text-align: center;
+            margin-bottom: 5px;
         }
     }
 }
@@ -197,7 +203,7 @@ p {
 
         .Zeus-Z {
             width: 40px;
-            height: 35px;
+            height: 40px;
         }
     }
 }
@@ -212,7 +218,7 @@ h2 {
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 button {
@@ -261,12 +267,26 @@ button {
 
 
     .media-logo {
+        width: 10%;
+        max-width: 70px;
         margin-top: unset;
+        justify-content: space-between;
 
 
         .bi {
             font-size: 1.5rem;
         }
+    }
+}
+
+}
+
+@media (min-width: 1024px) {
+.app-feature-holder {
+    flex-wrap: nowrap;
+    
+    .feature-container {
+        width: 30%;
     }
 }
 

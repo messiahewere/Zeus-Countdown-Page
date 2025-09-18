@@ -6,12 +6,19 @@
     bottom: 10%;
     max-width: 40px;
     max-height: 40px;
-    background-color: #fea500;
     border-radius: 5px;
     border: none;
     color: #fff;
     font-size: 1.5rem;
     z-index: 10;
+}
+
+.scroll-for-land {
+    background-color: #fea500;
+}
+
+.scroll-for-count {
+    background-color: transparent;
 }
 
 

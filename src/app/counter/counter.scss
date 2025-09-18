@@ -80,7 +80,7 @@
 button {
     width: 50%;
     max-width: 180px;
-    background-color: blue;
+    background-color: rgb(105, 105, 201);
     padding: 5px;
     color: white;
     border-radius: 10px;
@@ -98,7 +98,7 @@ h2 {
 
 p {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     margin: 0;
 }
 
@@ -109,11 +109,11 @@ p {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    align-items: center;
+    gap: 10px;
+    align-items: stretch;
 
     .feature-container {
-        width: 60%;
+        width: 100%;
         min-height: 105px;
         display: flex;
         flex-direction: column;
@@ -130,7 +130,7 @@ p {
         }
 
         h6 {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             font-weight: 600;
         }
 
@@ -146,9 +146,12 @@ p {
     max-width: 600px;
     margin: 0px auto;
     margin-top: 15px;
+    padding-bottom: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid rgb(163, 163, 192);
 
     p {
         margin: 0;
@@ -160,6 +163,11 @@ p {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-top: 5px;
+
+        .bi {
+            font-size: 1rem;
+        }
     }
 }
 
@@ -204,24 +212,24 @@ h2 {
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 button {
-    background-color: rgb(105, 105, 201);
     padding: 7px;
     font-size: 0.9rem;
     margin: 30px 0 10px;
 }
 
 .app-feature-holder {
-    max-width: 700px;
+    max-width: 1000px;
     flex-direction: row;
     margin-bottom: 30px;
-    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
     
     .feature-container {
-        width: 35%;
+        width: 40%;
 
         .bi {
             font-size: 2.5rem;
@@ -231,6 +239,33 @@ button {
         h6 {
             font-size: 1.2rem;
             margin: 7px 0 7px;
+        }
+    }
+}
+
+.about {
+    max-width: unset;
+    flex-direction: row;
+    align-items: center;
+
+    .logo-holder {
+
+        p {
+            font-size: 1.6rem;
+        }
+    }
+
+    p {
+            font-size: 1rem;
+    }
+
+
+    .media-logo {
+        margin-top: unset;
+
+
+        .bi {
+            font-size: 1.5rem;
         }
     }
 }
